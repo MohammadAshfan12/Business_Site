@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    font-family: poppins;
+    font-family: Georgia;
 }
 
 ul, nav{
@@ -242,7 +242,14 @@ ul.about-content{
         padding: 8px;
     }
     .about-btn{
-        margin-left: 50px;
+        margin-left: 60px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 700px){
+    .section-title{
+        font-size: 30px;
     }
 }
 
@@ -406,3 +413,4 @@ footer{
         padding-top: 20px;
     }
 }
+
