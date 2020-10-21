@@ -160,7 +160,6 @@ section p{
     text-transform: uppercase;
 }
 
-
 @media (max-width: 800px){
     .banner-area{
         min-height: 600px;
@@ -245,7 +244,6 @@ ul.about-content{
     text-transform: uppercase;
     color: #fff;
 }
-
 
 @media (max-width: 1000px){
     .about-left,
@@ -341,6 +339,7 @@ ul.contact-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-content li{
@@ -454,5 +453,14 @@ footer P{
     .section-title{
         font-size: 25px;
     }
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+i{
+    margin-bottom: 15px;
 }
 
