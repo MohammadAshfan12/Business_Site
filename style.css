@@ -144,12 +144,12 @@ section p{
 
 .banner-area h1{
     margin-bottom: 15px;
-    font-size: 65px;
+    font-size: 50px;
     font-family: merienda;
 }
 
 .banner-area h3{
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     font-size: 25px;
 }
 
@@ -159,6 +159,7 @@ section p{
     border-radius: 50px;
     text-transform: uppercase;
 }
+
 
 @media (max-width: 800px){
     .banner-area{
@@ -176,6 +177,10 @@ section p{
 }
 
 /* About Area */
+
+.section-title{
+    font-size: 35;;
+}
 
 ul.about-content{
     width: 100%;
@@ -239,8 +244,8 @@ ul.about-content{
     border-radius: 50px;
     text-transform: uppercase;
     color: #fff;
-    margin-left: 200px;
 }
+
 
 @media (max-width: 1000px){
     .about-left,
@@ -251,12 +256,12 @@ ul.about-content{
         padding: 8px;
     }
     .about-btn{
-        margin-left: 45px;
+        margin-left: 60px;
         margin-bottom: 30px;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 800px){
     .section-title{
         font-size: 30px;
     }
@@ -315,9 +320,9 @@ ul.services-content{
         padding: 0;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 800px){
     .section-title{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -369,7 +374,7 @@ ul.contact-content{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 800px){
     .section-title{
         font-size: 30px;
     }
@@ -413,17 +418,17 @@ footer{
 
 .photo-area h3{
     margin-bottom: 70px;
-    font-size: 44px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
 footer P{
-    font-size: 80px;
+    font-size: 40px;
 }
 
-@media(max-width: 1000px){
-    footer {
-        font-size: 100px;
+@media(max-width: 768px){
+    footer p{
+        font-size: 20px;
     }
 }
 
@@ -447,7 +452,7 @@ footer P{
 
 @media (max-width: 768px){
     .section-title{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
