@@ -200,11 +200,19 @@ ul.about-content{
 .about-left{
     flex-basis: 40%;
     background-image: url(tree.jpg);
+    border-radius: 22px;
    
 }
 
 .about-right{
     flex-basis: 60%;
+}
+
+.about-content h2{
+    text-align: center;
+}
+.about-content p{
+    text-align: justify;
 }
 
 .banner-area p{
@@ -231,6 +239,7 @@ ul.about-content{
     border-radius: 50px;
     text-transform: uppercase;
     color: #fff;
+    margin-left: 200px;
 }
 
 @media (max-width: 1000px){
@@ -242,12 +251,12 @@ ul.about-content{
         padding: 8px;
     }
     .about-btn{
-        margin-left: 60px;
+        margin-left: 45px;
         margin-bottom: 30px;
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 768px){
     .section-title{
         font-size: 30px;
     }
@@ -306,6 +315,11 @@ ul.services-content{
         padding: 0;
     }
 }
+@media (max-width: 768px){
+    .section-title{
+        font-size: 30px;
+    }
+}
 
 /* Contact area */
 
@@ -355,6 +369,12 @@ ul.contact-content{
     }
 }
 
+@media (max-width: 768px){
+    .section-title{
+        font-size: 30px;
+    }
+}
+
 /* footer */
 
 footer{
@@ -388,13 +408,23 @@ footer{
     background-position: center;
     background-size: cover;
     padding: 0 20px 20px;
-    border-radius: 10px;
+    border-radius: 22px;
 }
 
 .photo-area h3{
     margin-bottom: 70px;
     font-size: 44px;
     text-transform: uppercase;
+}
+
+footer P{
+    font-size: 80px;
+}
+
+@media(max-width: 1000px){
+    footer {
+        font-size: 100px;
+    }
 }
 
 @media (min-width: 1000px){
@@ -405,12 +435,19 @@ footer{
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        border-radius: 80px;
     }
     .photo-img{
         width: 220px;
         background-position: center;
         background-size: cover;
         padding-top: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .section-title{
+        font-size: 30px;
     }
 }
 
