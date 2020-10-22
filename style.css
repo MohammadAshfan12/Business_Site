@@ -265,6 +265,12 @@ ul.about-content{
     .section-title{
         font-size: 30px;
     }
+
+    .about-infomation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Service Area */
