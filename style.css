@@ -464,3 +464,12 @@ i{
     margin-bottom: 15px;
 }
 
+.call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
