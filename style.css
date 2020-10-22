@@ -158,6 +158,8 @@ section p{
     background: crimson;
     border-radius: 50px;
     text-transform: uppercase;
+    border: none;
+    outline: none;
 }
 
 @media (max-width: 800px){
