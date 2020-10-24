@@ -79,6 +79,13 @@ header nav li:last-child{
         margin: 0 7px;
     }
 }
+
+.home_logo{
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 /* banner area */
 section{
     display: -webkit-flex;
@@ -245,8 +252,15 @@ ul.about-content{
     border-radius: 50px;
     text-transform: uppercase;
     color: #fff;
+    margin-left: 20px;
 }
 
+.about-infomation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 1000px){
     .about-left,
     .about-right{
@@ -254,10 +268,6 @@ ul.about-content{
     }
     .about-content li{
         padding: 8px;
-    }
-    .about-btn{
-        margin-left: 65px;
-        margin-bottom: 30px;
     }
 }
 
@@ -271,6 +281,12 @@ ul.about-content{
         justify-content: center;
         align-items: center;
     }
+}
+
+.about-infomation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Service Area */
@@ -416,11 +432,11 @@ footer{
 }
 
 .photo-img{
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+    width: auto;
+    object-fit: cover;
     padding: 0 20px 20px;
     border-radius: 22px;
+    border: 1px solid black;
 }
 
 .photo-area h3{
