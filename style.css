@@ -254,6 +254,13 @@ ul.about-content{
     justify-content: center;
     align-items: center;
 }
+.about-area i{
+    font-size: 50px;
+    color: #757271;
+    margin-bottom: 25px;
+}
+
+
 @media (max-width: 1000px){
     .about-left,
     .about-right{
@@ -274,6 +281,10 @@ ul.about-content{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .about-btn{
+        margin-left: 0px;
     }
 }
 
@@ -309,7 +320,7 @@ ul.services-content{
 
 .services-content li i{
     font-size: 50px;
-    color: crimson;
+    color: #757271;
     margin-bottom: 25px;
 }
 
@@ -320,6 +331,12 @@ ul.services-content{
 
 .services-content li p{
     margin: 0;
+}
+
+.services-area i{
+    font-size: 50px;
+    color: #757271;
+    margin-bottom: 25px;
 }
 
 @media (max-width: 1000px){
@@ -368,7 +385,7 @@ ul.contact-content{
 
 .contact-content li i{
     font-size: 50px;
-    color: crimson;
+    color: #757271;
     margin-bottom: 25px;
 }
 
@@ -487,6 +504,24 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.services-content li{
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+/* 
+.about-right h2,p{
+    border: 2px solid grey;
+    border-radius: 5px;
+} */
+
+
+.logo{
+    width: 80px;
+    height:80px;
+    background-size: cover;
+    border-radius: 50%;
 }
 
 
