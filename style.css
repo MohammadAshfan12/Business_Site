@@ -8,9 +8,26 @@ html{
     scroll-behavior: smooth;
 }
 
-.about-area #camara{
-    margin-right: 8%;
+
+
+@media (max-width: 768px){
+    .about-area #camara{
+        margin-right: 8%;
+    }
+
+    .services-area #serv{
+        margin-right: 8%;
+    }
+
+    .photo-area #photos{
+        margin-right: 8%;
+    }
+
+    .contact-area #cont{
+        margin-right: 8%;
+    }
 }
+
 
 body{
     font-family: Georgia;
@@ -200,24 +217,6 @@ section p{
     border-bottom: 2px solid grey;
 }
 
-/* .contact-content{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-/* ul.about-content{
-    width: 100%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
-
 .about-content li{
     padding: 20px;
     height: 290px;
@@ -230,7 +229,7 @@ section p{
 .about-left{
     flex-basis: 40%;
     background-image: url(tree.jpg);
-    border-radius: 22px;
+    border-radius: 18px;
    
 }
 
@@ -312,10 +311,6 @@ section p{
         margin-left: 0px;
         margin-top: 15px;
     }
-    .contact-content{
-        display: flex;
-        /* flex-direction: column; */
-    }
 }
 
 .about-infomation{
@@ -331,7 +326,7 @@ section p{
     border-bottom: 2px solid grey;
 }
 
-@media (max-width: 1000px){
+/* @media (max-width: 1000px){
     #serv{
         margin-right: 3%;
     }
@@ -343,20 +338,35 @@ section p{
     #cont{
         margin-right: 4%;
     }    
-} 
-/* @media (max-width: 767px){
-    #serv{
-        margin-right: 8%;
+}  */
+@media (min-width: 790px){
+    .photo-area h3{
+        margin-left: 2%;
+    }
+
+    .about-area h3{
+        margin-left: 2%;
     }
     
-    #photos{
+    .services-area h3{
+        margin-left: 2%;
+    }
+
+    .photo-area h3{
+        margin-left: 2%;
+    }
+
+    .contact-area h3{
+        margin-left: 2%;
+    }
+    /* #photos{
         margin-right: 8%;
     }
     
     #cont{
-        margin-left: 3%
-    }    
-} */
+        margin-right: 8%;
+    }     */
+}
 
 /* ul.services-content{
     width: 100%;
@@ -460,7 +470,7 @@ section p{
     margin: 0;
 }
 
-@media (max-width: 1000px){
+/* @media (max-width: 1000px){
     .contact-content li{
         flex-basis: 100%;
         margin-bottom: 65px;
@@ -479,7 +489,7 @@ section p{
     .section-title{
         font-size: 30px;
     }
-}
+} */
 
 /* footer */
 
@@ -570,15 +580,6 @@ i{
     margin-bottom: 15px;
 }
 
-.contact-area .call{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-}
-
 .call a,i{
     margin-left: 30px;
     margin-top: 24px;
@@ -611,6 +612,11 @@ i{
 }
 
 .contact-area .address{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: 1px solid grey;
     margin-bottom: 50px;
     border-radius: 5px;
@@ -622,22 +628,150 @@ i{
     text-decoration: underline;
     margin-bottom: 10px;
     border-radius: 5px;
+    font-size: 22px;
 }
 
-.contact-content{
+.about-infomation-content #head{
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.about-infomation-content #main{
+    margin: 0;
+    padding: 1;
+    line-height:30px;
+}
+
+.dealers{
     width: 100%;
-    display: flex;
-    /* align-items: center;
-    justify-content: space-evenly; */
- 
+    font-size: 14px;
+    margin-top: 40px;
 }
 
-@media (max-width: 1000px){
+@media (min-width: 790px){
     .contact-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .call{
+        width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid grey;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .truck{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid grey;
+    }
+
+    .truck p{
+        margin-top: 60px;
+    }
+    .truck i{
+        margin-top: 20px;
+    }
+
+    .info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .telno{
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #number{
+        margin-bottom: 70px;
+        margin-right: 30px;
     }
 }
+
+@media (max-width: 768px){
+    .contact-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .call{
+        width: 100%;
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        border: 1px solid grey;
+        /* width: 100%;
+        border: 1px solid grey;
+        display: flex;
+        margin-bottom: 50px;
+        border-radius: 5px; */
+    }
+   .truck{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid grey;
+    }
+
+    .info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .truck p{
+        font-weight: 600;
+        font-size: 13px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .telno{
+        margin-bottom: 30px;
+    }
+
+    .info i{
+        margin-right: 25px;
+    }
+
+}
+
+
+.truck i{
+    margin-right: 30px;
+    margin-bottom: -20px;
+    color: black;
+}
+
+footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#next{
+    font-size: 20px;
+}
+
+
 
 
 
