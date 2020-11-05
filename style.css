@@ -56,7 +56,8 @@ header{
     display: -webkit-flex;
     display: -moz-flexox;
     display: -ms-flexbox;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     align-items: center;
     color: #fff;
     padding: 35px 100px 0px;
@@ -77,6 +78,21 @@ header nav{
     display: -o-flex;
     display: flex;
 }
+
+@media (min-width: 790px){
+    header nav{
+        width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: -o-flex;
+        display: flex;
+          justify-content: space-evenly;
+    font-size: 25px;
+    }
+}
+
+
 
 header nav li{
     margin: 0 15px;
