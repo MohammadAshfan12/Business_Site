@@ -326,17 +326,20 @@ section p{
     border-bottom: 2px solid grey;
 }
 
-@media (min-width: 790px){
+@media (max-width: 1440px){
+    #camara{
+        margin-right: 2%;
+    }
     #serv{
-        margin-right: 3%;
+        margin-right: 2%;
     }
     
     #photos{
-        margin-right: 4%;
+        margin-right: 2%;
     }
     
     #cont{
-        margin-right: 4%;
+        margin-right:  2%;
     }    
 } 
 /* @media (min-width: 790px){
