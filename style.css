@@ -87,7 +87,7 @@ header nav{
         display: -ms-flexbox;
         display: -o-flex;
         display: flex;
-          justify-content: space-evenly;
+        justify-content: space-evenly;
     font-size: 25px;
     }
 }
