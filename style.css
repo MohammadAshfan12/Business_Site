@@ -326,7 +326,7 @@ section p{
     border-bottom: 2px solid grey;
 }
 
-@media (max-width: 1000px){
+/* @media (max-width: 1000px){
     #serv{
         margin-right: 3%;
     }
@@ -338,8 +338,8 @@ section p{
     #cont{
         margin-right: 4%;
     }    
-} 
-/* @media (min-width: 790px){
+}  */
+@media (min-width: 790px){
     .photo-area h3{
         margin-left: 2%;
     }
@@ -358,7 +358,7 @@ section p{
 
     .contact-area h3{
         margin-left: 2%;
-    } */
+    }
     /* #photos{
         margin-right: 8%;
     }
@@ -366,7 +366,7 @@ section p{
     #cont{
         margin-right: 8%;
     }     */
-/* } */
+}
 
 /* ul.services-content{
     width: 100%;
