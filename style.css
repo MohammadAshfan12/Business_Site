@@ -489,28 +489,6 @@ section p{
     margin: 0;
 }
 
-/* @media (max-width: 1000px){
-    .contact-content li{
-        flex-basis: 100%;
-        margin-bottom: 65px;
-    }
-
-    .contact-content li:last-child{
-        margin-bottom: 0;
-    }
-
-    .contact-content li p{
-        padding: 0;
-    }
-}
-
-@media (max-width: 767px){
-    .section-title{
-        font-size: 30px;
-    }
-} */
-
-/* footer */
 
 footer{
     display: -webkit-flex;
