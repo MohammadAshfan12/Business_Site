@@ -8,8 +8,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
-
 @media (max-width: 768px){
     .about-area #camara{
         margin-right: 8%;
@@ -27,7 +25,6 @@ html{
         margin-right: 8%;
     }
 }
-
 
 body{
     font-family: Georgia;
@@ -92,8 +89,6 @@ header nav{
     }
 }
 
-
-
 header nav li{
     margin: 0 15px;
 }
@@ -124,6 +119,7 @@ header nav li:last-child{
         margin: 0 7px;
     }
 }
+
 /* banner area */
 section{
     display: -webkit-flex;
@@ -156,16 +152,19 @@ section p{
     line-height: 2;
 }
 
-.banner-area{
-    position: relative;
-    justify-content: center;
-    min-height: 100vh;
-    color: #fff;
-    text-align: center;
+@media (max-height: 1440px){
+    .banner-area{
+        position: relative;
+        justify-content: center;
+        min-height: 100vh;
+        color: #fff;
+        text-align: center;
+    }
 }
 
 .banner-area .banner-img{
-    background-image: url(tree.jpg);
+    background-image: url('../Images/photo.jpg');
+    object-fit: contain;
     position: absolute;
     top: 0;
     left: 0;
@@ -189,7 +188,7 @@ section p{
 
 .banner-area h1{
     margin-bottom: 15px;
-    font-size: 50px;
+    font-size: 60px;
     font-family: merienda;
 }
 
@@ -207,12 +206,30 @@ section p{
     outline: none;
 }
 
+@media (max-width: 667px){
+    .banner-area{
+        min-height: 811px;
+        object-fit: contain;
+    }
+    .banner-area h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 736px){
+    .banner-area{
+        min-height: 736px;
+        object-fit: contain;
+    }
+}
+ 
 @media (max-width: 800px){
     .banner-area{
-        min-height: 600px;
+        min-height: 667px;
+        object-fit: contain;
     }
     .banner-area h1{
-        font-size: 32px;
+        font-size: 35px;
     }
     .banner-area h3{
         font-size: 20px;
@@ -220,10 +237,26 @@ section p{
     .banner-area a.banner-btn{
         padding: 15px 40px;
     }
+    .head-info{
+        margin-bottom: 35px;
+    }
 }
 
+@media (max-width: 812px){
+    .banner-area{
+        min-height: 811px;
+        object-fit: contain;
+    }
+}
+ 
+@media (max-width: 823px){
+    .banner-area{
+        min-height: 823px;
+        object-fit: contain;
+    }
+}
+ 
 /* About Area */
-
 .section-title{
     font-size: 35;;
 }
@@ -244,9 +277,8 @@ section p{
 
 .about-left{
     flex-basis: 40%;
-    background-image: url(tree.jpg);
+    background-image: url('../Images/tendercoconut.jpg');
     border-radius: 18px;
-   
 }
 
 .about-right{
@@ -300,7 +332,6 @@ section p{
     margin-bottom: 25px;
 }
 
-
 @media (max-width: 1000px){
     .about-left,
     .about-right{
@@ -336,7 +367,6 @@ section p{
 }
 
 /* Service Area */
-
 #services{
     background: #ddd;
     border-bottom: 2px solid grey;
@@ -358,46 +388,6 @@ section p{
         margin-right:  2%;
     }    
 } 
-/* @media (min-width: 790px){
-    .photo-area h3{
-        margin-left: 2%;
-    }
-
-    .about-area h3{
-        margin-left: 2%;
-    }
-    
-    .services-area h3{
-        margin-left: 2%;
-    }
-
-    .photo-area h3{
-        margin-left: 2%;
-    }
-
-    .contact-area h3{
-        margin-left: 2%;
-    } */
-    /* #photos{
-        margin-right: 8%;
-    }
-    
-    #cont{
-        margin-right: 8%;
-    }     */
-/* } */
-
-/* ul.services-content{
-    width: 100%;
-    height: 100%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
 
 .services-content li{
     padding: 0 30px;
@@ -449,25 +439,10 @@ section p{
 }
 
 /* Contact area */
-
 #contact{
     background: #ddd;
     border-bottom: 2px solid grey;
 }
-
-/* ul .contact-content{
-    width: 100%;
-    height: 100px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-} */
 
 .contact-content li{
     padding: 0 30px;
@@ -488,7 +463,6 @@ section p{
 .contact-content li p{
     margin: 0;
 }
-
 
 footer{
     display: -webkit-flex;
@@ -576,7 +550,6 @@ footer P{
 i{
     margin-bottom: 15px;
 }
-
 .call a,i{
     margin-left: 30px;
     margin-top: 24px;
@@ -584,6 +557,7 @@ i{
 
 .services-content li{
     border: 1px solid grey;
+
     border-radius: 5px;
 }
 
@@ -617,7 +591,6 @@ i{
     border: 1px solid grey;
     margin-bottom: 50px;
     border-radius: 5px;
-    
 }
 
 .contact-area .address h2{
@@ -712,11 +685,6 @@ i{
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
         border: 1px solid grey;
-        /* width: 100%;
-        border: 1px solid grey;
-        display: flex;
-        margin-bottom: 50px;
-        border-radius: 5px; */
     }
    .truck{
         width: 100%;
@@ -753,7 +721,6 @@ i{
 
 }
 
-
 .truck i{
     margin-right: 30px;
     margin-bottom: -20px;
@@ -766,6 +733,12 @@ footer p{
 
 #next{
     font-size: 20px;
+}
+
+@media (min-width: 800px){
+    .about-left{
+        border-radius: 30px;
+    }
 }
 
 
