@@ -163,7 +163,7 @@ section p{
 }
 
 .banner-area .banner-img{
-    background-image: url('../Images/photo.jpg');
+    background-image: url(./photo.jpg);
     object-fit: contain;
     position: absolute;
     top: 0;
@@ -277,7 +277,7 @@ section p{
 
 .about-left{
     flex-basis: 40%;
-    background-image: url('../Images/tendercoconut.jpg');
+    background-image: url(./tendercoconut.jpg);
     border-radius: 18px;
 }
 
